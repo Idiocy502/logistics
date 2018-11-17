@@ -1,0 +1,131 @@
+#页面
+  {
+	  margin:0 auto;
+	  padding:0;
+	  height:900px;
+	  width:1200px;
+	  position:relative;
+
+  }
+  #页首
+  {
+	 margin:0px;
+	 padding:0px;
+	 height:75px;
+	 width:1200px;
+	 position:relative;
+	 background-color:#D4ECF8;
+
+  }
+    #图标
+  {
+	  margin-left:40px;
+	  padding-top: 5px;
+	  float:left;
+	  height:60px;
+	  width:225px;
+	  position:static;
+  }
+
+  #右边文字
+  {
+	  margin:10px;
+	  padding:20px;
+	  float:right;
+	  height:18px;
+	  width:300px;
+	  position:static;
+	  text-decoration:none;
+	  font-size:12px;
+	  color:#97C9F8;
+	 
+  }
+  a{
+	  text-decoration:none;
+  }
+  #右边文字 a:hover
+  {
+	  color:#FC751A;
+  }
+   .red
+  {
+	  color:#E80206;
+  }
+  
+  #页中
+  {
+	  margin:5 auto;
+	  height:700px;
+	  width1200px;
+	  position:static;
+  }
+  #页中左侧
+  {
+	  margin-top:80px;
+	  margin-left:200px;
+	  height:500px;
+	  width:400px;
+	  float:left;
+	  position:static;
+  }
+  #页中右侧
+  {
+	margin-top: 80px;
+	margin-right: 50px;
+	height: 500px;
+	width: 400px;
+	float: right;
+	position: static;
+	border: 2px solid #70B5ED;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+  }
+  #页中 #标题
+  {
+	  height:200px;
+	  width:400px;
+	  position:static;
+	  text-align:center;
+  }
+  #页中右侧头部
+  {
+	  padding-top:20px;
+	  height:40px;
+	  width:400px;
+	  position:static;
+	  text-decoration:none;
+	  text-align:center;
+	  font-size:18px;
+	  background-color:#F3FBFC;
+	  border: 1px solid #70B5ED;
+  }
+  
+  #页中右侧下部
+  {
+	margin: 68px auto;
+	margin-right: -40px;
+	height: 40px;
+	width: 230px;
+	position: static;
+	float: right;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: none;
+	text-align: center;
+  }
+  
+  #页尾
+  {
+	margin-top: 73px;
+	padding-top:18px;
+	height: 40px;
+	width: 1200px;
+	position: static;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid #70B5ED;
+	background-color:#E6F5F8;
+  }

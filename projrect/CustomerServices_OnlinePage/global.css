@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+/* 
+****************************************************
+============== last modify 2008-06-24 ==============
+****************************************************
+*/
+/* 全局属性 */
+body { text-align:center; font-family:Tahoma,"宋体"; font-size:12px; background:#fff; color:#333; margin:0; padding:0;}
+div,form,img,ul,ol,li,dl,dt,dd ,p{ margin:0; padding:0; border:0;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+ul,ol { list-style:none;}
+input { font-family:"宋体";}
+/* 链接 */
+a,a:visited { color:#2a4f83; text-decoration:none;}
+a:hover,a:active { color:#ff6902; text-decoration:none;}
+/* 字体大小 */
+.f14 { font-size:14px;}
+.ls { white-space:pre;}
+/* 其他属性 */
+.tc{ text-align:center;} .tl{ text-align:left;} .tr{ text-align:right;}
+.fl{ float:left;} .fr{ float:right;}
+.clear { clear:both;}
+.dis { display:block;} .hideen { display:none;}
+.bold { font-weight:700;}
+.blank8 { height:8px; font-size:1px; clear:both; overflow:hidden;}
+.blank10 { height:10px; font-size:1px; clear:both; overflow:hidden;}
+/* 布局区块 */
+.area { width:910px; margin:0 auto;}
+.box { border:1px solid #e1e2e4;}
+h2 { height:26px; line-height:26px; padding-top:1px; border-bottom:1px solid #e1e2e4; background:#fff3c1; text-align:left; color:#58595d; padding-left:18px; font-size:14px;}
+h2 span.more { float:right; font-size:12px; font-weight:400; margin:-25px 8px 0 0;}
+h2 span.more a:link,h2 span.more a:visited { color:#bd7945; text-decoration:none;}
+h2 span.more a:hover { color:#ff6902; text-decoration:none;}
+h3 { font-size:16px; color:#ff8b00;}
+h4 { font-size:12px; color:#4a4a4a;}
+/* 面包屑 */
+.brumb { height:24px; line-height:24px; text-align:left;}
+/* 头部 */
+.head { height:80px; background:url(../img/header_bg.gif) repeat-x;}
+#logo { float:left; width:190px;}
+#logo h1 img { display:block;}
+.search { float:left; width:666px; text-align:left; padding:24px 0 0 54px;}
+.search input.text_search { width:386px; height:16px; line-height:16px; padding:5px 2px; border:1px solid #a1a1a1;}
+.search input.bn { width:88px; height:28px; font-weight:700;}
+/* 导航 */
+.nav { height:27px; overflow:hidden; padding-top:3px; background:#ffad46 url(../img/080804/nav1.jpg) repeat-x; text-align:center; _font-size:120px;}
+.nav_c { width:910px; margin:0 auto; text-align:left;}
+.nav a:link,.nav a:visited { width:86px; height:25px; line-height:22px; padding-top:2px; color:#fff; font-size:14px; font-weight:700; display:-moz-inline-block; -moz-box-align:center; display:inline-block; margin:0 24px 0 0; text-decoration:none; text-align:center;}
+.nav a:hover { color:#fff; text-decoration:underline;}
+.nav a.s1,.nav a.s1:visited,.nav a.s1:hover { background:url(../img/080804/nav2.jpg) no-repeat bottom center; color:#14293a; text-decoration:none;}
+/* 页脚 */
+a.cmn,a.cmn:visited { color:#7d7d7d;}
+a.cmn:hover { text-decoration:underline;}
+a.fot,a.fot:visited { color:#7d7d7d;}
+a.fot:hover { text-decoration:underline;}
+span.copyright { color:#7d7d7d;}
+.copy_line { background-image:url(../img/copy_line.gif); background-position:left; background-repeat:no-repeat; text-align:left; padding-left:40px;}
+.copy_line a:link,.copy_line a:visited { color:#7d7d7d;}
+.copy_line a:hover { color:#ff6902; text-decoration:underline;}
+#ft { line-height:22px; color:#7d7d7d;}
+#ft a,#ft a:visited { color:#7d7d7d;}
+#ft a:hover { text-decoration:underline;}

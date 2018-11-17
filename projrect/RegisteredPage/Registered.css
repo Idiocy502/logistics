@@ -1,0 +1,79 @@
+ body
+  {
+	  margin:0 auto;
+	  padding:0;
+	  height:1270px;
+	  width:1200px;
+	  position:relative;
+	  background-image:url(Image/%E8%83%8C%E6%99%AF%E5%9B%BE.jpg);
+	  background-repeat:no-repeat;
+  }
+  #上部
+  {
+	  margin-top:0px;
+	  padding-top:0px;
+	  height:70px;
+	  width:1200px;
+	  position:static;
+  }
+  #首部右侧
+  {
+	  margin-top:10px;
+	  padding-top:20px;
+	  height:35px;
+	  width:300px;
+	  position:static;
+	  float:right;
+	  font-size:12px;
+  }
+   #首部左侧
+  {
+  	 margin-left: 20px;
+	  margin-top:-10px;
+	  padding-top:20px;
+	  height:35px;
+	  width:250px;
+	  position:static;
+	  float:left;
+	  font-size:12px;
+  }
+  
+  a
+  {
+	  text-decoration:none;
+  }
+  .red
+  {
+	  color:#E80206;
+  }
+  #图片
+  {
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 0;
+	height: 340px;
+	width: 800px;
+	text-align: center;
+  }
+  #中部
+  {
+	margin: 0 auto;
+	padding: 0;
+	height: 800px;
+	width: 800px;
+	position: static;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: left;
+	font-size: 12px;
+  }
+  #底部
+  {
+	margin: 0 auto;
+	padding-top:10px;
+	height: 30px;
+	width: 1200px;
+	position: static;
+	font-size:11px;
+	color:#C1BFBF;
+	text-align:center;
+  }

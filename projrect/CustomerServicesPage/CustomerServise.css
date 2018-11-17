@@ -1,0 +1,246 @@
+ #页面
+  {
+	  margin:0 auto;
+	  padding:0;
+	  height:1136px;
+	  width:1200px;
+	  background-image:url(Image/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87.jpg);
+	  position:relative;
+	  
+  }
+  #页首
+  {
+	 margin:0px;
+	 padding:0px;
+	 height:75px;
+	 width:1200px;
+	 position:relative;
+	 background-color:#D4ECF8;
+
+  }
+  #搜索栏
+  {
+	 margin:5 0px;
+	 padding:0px;
+	 height:35px;
+	 width:100%;
+	 position:relative;
+	 background-color:#DDDADA;
+  }
+  #搜索
+  {
+  	 margin:0px;
+	 padding:0px;
+	 height:25px;
+     width:400px;
+	 color:#888888;
+	 font-size:10px;
+	 position:relative;
+  }
+  #图标
+  {
+	  margin-left:40px;
+	  padding-top: 5px;
+	  float:left;
+	  height:60px;
+	  width:225px;
+	  position:static;
+  }
+
+  #右边文字
+  {
+	  margin:10px;
+	  padding:20px;
+	  float:right;
+	  height:18px;
+	  width:300px;
+	  position:static;
+	  text-decoration:none;
+	  font-size:12px;
+	  color:#97C9F8;
+	 
+  }
+  a{
+	  text-decoration:none;
+  }
+  #右边文字 a:hover
+  {
+	  color:#FC751A;
+  }
+  
+  #页中
+  {
+	  margin:5 auto;
+	  height:700px;
+	  width1200px;
+	  position:static;
+  }
+  #页中左侧
+  {
+	  margin-top:60px;
+	  margin-left:40px;
+	  height:500px;
+	  width:400px;
+	  float:left;
+	  position:static;
+  }
+  #页中左侧首部
+  {
+	  margin:0 auto;
+	  padding:0;
+	  height:310px;
+	  width:270px;
+	  position:static;
+  }
+  #客服咨询
+  {
+  	 margin:0 auto;
+  	 padding:0;
+	 height:69px;
+	 width:230px;
+	 position:static;
+  }
+  #页中右侧
+  {
+	margin-top: 60px;
+	margin-right: 50px;
+	height: 500px;
+	width: 620px;
+	float: right;
+	position: static;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-decoration: none;
+  }
+  .板块标题
+  {
+	  font-size:18px;
+	  color:#3788D3;
+	  font-weight:400;
+  }
+  ul
+  {
+	  font-size:12px;
+	  list-style-type:none;
+	  color:#C3C2C2;
+  }
+  li
+  {
+	  float:left;
+  }
+  #页中右侧块一
+  {
+	  margin-top:40px;
+	  padding-top:10px;
+	  height:160px;
+	  width:300px;
+	  position:static;
+	  text-decoration:none;
+	  font-size:18px;
+	  float:left;
+	  box-shadow: 2px 2px 2px #979797;
+	  background-color:#F3FBFC;
+  }
+   #页中右侧块二
+  {
+	  margin-top:40px;
+	  padding-top:10px;
+	  height:160px;
+	  width:300px;
+	  position:static;
+	  text-decoration:none;
+	  font-size:18px;
+	  float:right;
+	  box-shadow: 2px 2px 2px #979797;
+	  background-color:#F3FBFC;
+  }
+   #页中右侧块三
+  {
+	  margin-top:18px;
+	  padding-top:20px;
+	  height:160px;
+	  width:300px;
+	  position:static;
+	  text-decoration:none;
+	  font-size:18px;
+	  float:left;
+	  box-shadow: 2px 2px 2px #979797;
+	  background-color:#F3FBFC;
+  }
+   #页中右侧块四
+  {
+	  margin-top:18px;
+	  padding-top:20px;
+	  height:160px;
+	  width:300px;
+	  position:static;
+	  text-decoration:none;
+	  font-size:18px;
+	  float:right;
+	  box-shadow: 2px 2px 2px #979797;
+	  background-color:#F3FBFC;
+  }
+ 
+  #页中下部
+  {
+	  margin-top:-110px;
+	  height:270px;
+	  width:1200px;
+	  position:static;
+  }
+  .标题1
+  {
+	  font-size:14px;
+	  font-weight:900;
+	  color:#F8A834;
+  }
+  .内容1
+  {
+	  font-size:12px;
+	  font-weight:900;
+	  color:#747171;
+  }
+  .标题2
+  {
+	  font-size:14px;
+	  font-weight:900;
+	  color:#F8A834;
+  }
+  .内容2
+  {
+	  font-size:12px;
+	  font-weight:900;
+  }
+  #页中下部左侧
+  {
+	  margin-top:24px;
+	  padding-top:30px;
+	  height:200px;
+	  width:500px;
+	  float:left;
+	  margin-left:100px;
+	  position:static;
+  }
+  
+  #页中下部右侧
+  {
+	  margin-top:24px;
+	  padding-top:30px;
+	  height:200px;
+	  width:500px;
+	  float:right;
+	  margin-right:0px;
+	  position:static;
+  }
+  
+  #页尾
+  {
+	margin-top: 100px;
+	padding-top:18px;
+	height: 40px;
+	width: 1200px;
+	position: static;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	background-color:#E6F5F8;
+  }

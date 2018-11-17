@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link href="CustomerServise.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="../JQ/jquery-2.1.4.js"></script>
+
+<script type="text/javascript" src="CustomerServise.js"></script>
+	
+<title>客户服务</title>
+
+</head>
+
+<body id="页面">
+   <div id= "页首">
+      <div id="图标"> 
+       <a href="../MianPage/MianPage.html"><img src="Image/SOFA物流_logo.png" width="214" height="55">
+      </div>
+      <div id="右边文字"> <a href="../MianPage/MianPage.html">首页</a>&nbsp;|&nbsp;<a href="../CustomerServices_countPage/物流网站-客户服务_账号申述.html">帐号申述</a>&nbsp;|&nbsp;<a href="../CustomerServices_optionsbackPage/CustomerServices_optionsback.html">意见反馈</a>&nbsp;|&nbsp;<a href="../CustomerServices_OnlinePage/物流网站-客户服务_在线客服.html">在线客服</a>&nbsp;|&nbsp;<a href="#">产品展示</a></div>
+   </div>
+   
+   <div id="搜索栏">
+      <div id="搜索">
+        	<img src="Image/搜索.png" height="15" width="15" /> <span>常见问题快捷入口:</span> <input type="text" placeholder="搜索：账户申述" size="12" />&nbsp;&nbsp;&nbsp;<input type="button" value="搜索" />
+      </div>
+
+   </div>
+   
+   <div id="页中">
+
+     <div id="页中左侧">
+
+        <div id="页中左侧首部">
+          <img src="Image/客服头像.jpg"></img>
+        </div>
+        <br />
+        
+       <div id="客服咨询">
+           <input type="image" src="Image/在线客服咨询.png " width="210" height="70" >
+           
+          <p>&nbsp;&nbsp;&nbsp;<input type="button" value="QQ咨询" id="qqTalk" onClick="QQTalk();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="电话咨询"></p>
+        </div>
+        
+        <br />
+        <br />
+        <br />
+
+        <a href="#"><p align="center"><font size="-1">了解更多详情 ></font></p></a>
+
+      </div>
+      
+     <div id="页中右侧">
+          <div id="页中右侧块一">
+     
+          <p class="板块标题">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../CustomerServices_countPage/物流网站-客户服务_账号申述.html">账号申述</a></p>
+             <ul>
+                <li><a href="#">手机绑定 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;密保问题 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;修改账号 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;找回密码 &nbsp;&nbsp;</a></li>
+             </ul>
+          </div>
+          
+          <div id="页中右侧块二">
+           <p class="板块标题">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../CustomerServices_HelpCenterPage/物流网站-客户服务_帮助中心.html">帮助中心</a></p>
+              <ul>
+                <li><a href="#">账号信息 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;网站功能 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;游戏应用 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;手机用户 &nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;增值服务 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;SOFA逛街 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;账户安全 &nbsp;&nbsp;</a></li>
+             </ul>
+          </div>
+          
+          <div id="页中右侧块三">
+           <p class="板块标题">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../CustomerServices_OnlinePage/物流网站-客户服务_在线客服.html">在线客服</a></p>
+             <ul>
+                <li><a href="#">SOFA充值客服 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;在线投诉 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;会员专线客服 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;产品申报 &nbsp;&nbsp;</a></li>
+             </ul>
+          </div>
+          
+          <div id="页中右侧块四">
+           <p class="板块标题">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../CustomerServices_optionsbackPage/CustomerServices_optionsback.html">意见反馈</a></p>
+           <ul>
+                <li><a href="#">联系我们 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;提交问题 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;怎样使用 &nbsp;&nbsp;</a>|</li>
+                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;关于我们 &nbsp;&nbsp;</a></li>
+             </ul>
+          </div>
+     </div>
+      
+   </div>
+   
+   <div id="页中下部">
+      <div id="页中下部左侧">
+          <span class="标题1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;客服电话<br /></span>
+          <br />
+          <br />
+          
+          <span class="内容1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIP/充值客服电话：4000803580-1
+          <br />
+          <br />
+          
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帐号客服联系电话：4000803580-2</span>
+
+      </div>
+      
+      <div id="页中下部右侧">
+          <span class="标题2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;常见问题</span>
+          <br />
+          <br />
+          
+          <span class="内容2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><font color="#747171">登录忘记密码怎么办？</font></a>
+          <br />
+          <br />
+          
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><font color="#747171">为什么我没法登录？</font></a>
+          <br />
+          <br />
+          
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><font color="#747171">账户被盗怎么办？</font></a>
+          <br />
+          <br />
+          
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><font color="#747171">账号被冻结了，怎么解冻账号？</font></a></span>
+          
+      </div>
+   </div>
+   
+   
+   
+   <div id="页尾">
+      <a href="#">关于SOFA</a>&nbsp;|&nbsp;<a href="#">服务条款</a>&nbsp;|&nbsp;<a href="#">客服中心</a>&nbsp;|&nbsp;<a href="#">联系我们</a>&nbsp;|&nbsp;<a href="#">帮助中心</a>&nbsp;|&nbsp;<span>&copy;1998 - 2015 Tencent Inc. All Rights Reserved.</span>
+   </div>
+
+</body>
+</html>

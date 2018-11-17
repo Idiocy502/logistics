@@ -1,0 +1,39 @@
+body
+{
+	background-image: url(images/img1.png);
+	background-repeat: no-repeat;
+}
+#文字 p
+{
+	font-size: 50px;
+
+}
+#页中
+{
+	width: 800px;
+	height: auto;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#内容编辑框
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+#按钮
+{
+
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	margin-right: 70px;
+	margin-top: 20px;
+}
+.text1
+{
+
+	font-size: 25px;
+}

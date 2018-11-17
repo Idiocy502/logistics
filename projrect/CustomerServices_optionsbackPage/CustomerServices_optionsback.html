@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link href="CustomerServices_optionsback.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="../JQ/jquery-2.1.4.js"></script>
+
+<script type="text/javascript" src="CustomerServices_optionsback.js"></script>
+	
+<title>意见反馈</title>
+
+</head>
+
+<body id="页面">
+   <div id= "页首">
+      <div id="图标"> 
+       <a href="../MianPage/MianPage.html"><img src="Image/SOFA物流_logo.png" width="214" height="55">
+      </div>
+      <div id="右边文字"> <a href="../MianPage/MianPage.html">首页</a>&nbsp;|&nbsp;<a href="../CustomerServices_countPage/物流网站-客户服务_账号申述.html">帐号申述</a>&nbsp;|&nbsp;<a href="../CustomerServices_optionsbackPage/CustomerServices_optionsback.html">意见反馈</a>&nbsp;|&nbsp;<a href="../CustomerServices_OnlinePage/物流网站-客户服务_在线客服.html">在线客服</a>&nbsp;|&nbsp;<a href="#">产品展示</a></div>
+   </div>
+   
+   <div id="搜索栏">
+      <div id="搜索">
+        	<img src="Image/搜索.png" height="15" width="15" /> <span>常见问题快捷入口:</span> <input type="text" placeholder="搜索：账户申述" size="12" />&nbsp;&nbsp;&nbsp;<input type="button" value="搜索" />
+      </div>
+
+   </div>
+   
+   <div id="页中">
+
+     <div id="页中左侧">
+
+        <div id="页中左侧首部">
+          <img src="Image/客服头像.jpg"></img>
+        </div>
+        <br />
+        
+       <div id="客服咨询">
+           <input type="image" src="Image/在线客服咨询.png " width="210" height="70" >
+           
+          <p>&nbsp;&nbsp;&nbsp;<input type="button" value="QQ咨询" id="qqTalk" onClick="QQTalk();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="电话咨询"></p>
+        </div>
+        
+        <br />
+        <br />
+        <br />
+
+        <a href="#"><p align="center"><font size="-1">了解更多详情 ></font></p></a>
+
+      </div>
+      
+     <div id="页中右侧">
+         <div id="currentLocation">
+            当前位置： <a href="../CustomerServicesPage/物流网站-客户服务.html">客户服务</a> > 意见反馈
+         </div>
+		 <div id="upwz">
+		 <span><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;尊敬的SOFA快递用户，您好：</big></span>
+		 <br />
+		 <div id="wz">
+		 <p><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;感谢您对SOFA物流的支持与关注，我们将竭诚为您提供最详实、准
+		 确的信息，以满足网友的需求。但百密总有一疏，无论您对页面布局是否喜欢；数据信息
+		 是否有误，配图正确与否，都希望得到您客观的评价，虚心接受您最诚挚的意见和建议，
+		 对您留下的宝贵意见我们将第一时间给予解答并修正，并根据反馈意见的重要程度，给予
+		 一定奖励，送上新浪的精美纪念品一份。</small></p> 
+		 </div>
+		 </div>
+		 <div id="tp">
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;<span class="red">*</span><small>问题类型:</small>&nbsp;&nbsp;&nbsp;<select href="CustomerServices_HelpCenter.css" rel="stylesheet" type="text/css"> 
+		   <option>数据</option>
+		   <option>图片</option>
+		   <option>文字</option>
+		 </select>
+		 <br /><br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;<span class="red">*</span><small>链接地址:</small>&nbsp;&nbsp;&nbsp;<input type="text" style="height:20px; width:400px;">
+		 <br /><br />
+		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;<span class="red">*</span><small>问题描述:</small>&nbsp;&nbsp;&nbsp;<textarea name="" cols="50" rows="5"></textarea>
+		 <br /><br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;<small>上传图片:</small>&nbsp;&nbsp;&nbsp;&nbsp;<input type="file">
+		 <br /><br />
+		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;<span class="red">*</span><small>联系方式:</small>&nbsp;&nbsp;&nbsp;<input type="text" style="height:20px; width:250px;">
+		 <br />
+		 <div id="dbwz">
+		 <p><small>email 或者电话，方便进一步沟通。每月还会定期抽取精美礼品。</small><p>
+		 </div>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;<input type="submit">
+		 </div>
+      </div>
+    
+   </div>
+
+   <div id="页尾">
+      <a href="#">关于SOFA</a>&nbsp;|&nbsp;<a href="#">服务条款</a>&nbsp;|&nbsp;<a href="#">客服中心</a>&nbsp;|&nbsp;<a href="#">联系我们</a>&nbsp;|&nbsp;<a href="#">帮助中心</a>&nbsp;|&nbsp;<span>&copy;1998 - 2015 Tencent Inc. All Rights Reserved.</span>
+   </div>
+
+</body>
+</html>

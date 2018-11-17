@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link href="Logisticsquery.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="../JQ/jquery-2.1.4.js"></script>
+
+<script type="text/javascript" src="Logisticsquery.js"></script>
+
+<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp"></script>
+	
+<title>物流查询</title>
+
+</head>
+
+<body>
+<div id="header">
+      <div id="header_top">
+        &nbsp;&nbsp;<font color="#8EA3F4">SOFA物流欢迎您</font>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">设为首页</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">添加到收藏夹</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">GPS定位</a>&nbsp;&nbsp;&nbsp;<a href="#">消息中心</a>&nbsp;&nbsp;&nbsp;<a href="#">物流动向</a>&nbsp;&nbsp;&nbsp;<a href="#">手机配货</a>&nbsp;&nbsp;&nbsp;<a href="#">更多资讯</a>&nbsp;&nbsp;&nbsp;<a href="#">线路竞价</a>&nbsp;&nbsp;&nbsp;<a href="#">广告服务</a>&nbsp;&nbsp;&nbsp;<a href="#">网站建设</a>&nbsp;&nbsp;&nbsp;<a href="#">货运保险</a>&nbsp;&nbsp;&nbsp;<a href="#">便捷服务</a>&nbsp;&nbsp;&nbsp;<a href="#">帮助中心</a>&nbsp;&nbsp;&nbsp;<a href="#">联系我们</a>&nbsp;&nbsp;&nbsp;<input type="image" src="Image/综合搜索.png">
+    </div>
+    <div id="header_minddle">
+          <div id="Mianicon"> 
+            <a href="../MianPage/MianPage.html"><img src="Image/SOFA物流_logo.png" width="214" height="55">
+          </div>
+          <div id="advertisement">
+          <a href="#"><img id="img1" src="Image/广告.png"/></a>
+		    <script language="javascript">
+			setInterval('cImg()', 4000)
+			</script>
+          </div>
+     </div>
+     <div id="FirstMenu">
+     
+     
+       <div id="导航栏"> 
+				<ul class="导航栏列表">
+					<li class="首页"><a href="../MianPage/MianPage.html">首页</a></li>
+					<li class="物流查询"><a href="../LogisticsqueryPage/Logisticsquery.html">物流查询</a></li>
+					<li class="新闻公告"><a href="../NewsPage/NewsPage.html">新闻公告</a></li> 
+					<li class="增值业务"><a href="../ValueaddPage/ValueaddPage.html">增值业务</a></li>
+					<li class="活动促销"><a href="../SalesPromotionPage/促销活动.html">活动促销</a></li>
+                    <li class="客服服务"><a href="../CustomerServicesPage/物流网站-客户服务.html">客服服务</a></li>  			
+				</ul>
+			</div>
+            
+            
+            
+			<div id="物流查询下拉">
+				<div class="下拉"> 
+                    <ul class="物流查询下拉列表">
+                         <li><a href="../LogisticsqueryPage/Logisticsquery.html">&nbsp;&nbsp;&nbsp;物流首页</a></li>
+		                 <li><a href="../Logistics inquirePage/Logistics inquire.html">&nbsp;&nbsp;&nbsp;运单追踪</a></li>
+		    			 <li><a href="../supply_of_goods_infoPage/货源信息.html">&nbsp;&nbsp;&nbsp;货源信息</a></li>
+		    			 <li><a href="../carsoptionsinfoPage/车源信息.html">&nbsp;&nbsp;&nbsp;车源信息</a></li>
+		    			 <li><a href="../Bjnfxky LogisticsPage/Bjnfxky Logistics.html">&nbsp;&nbsp;&nbsp;物流专线</a></li>   
+	             	</ul>
+				</div>  
+			</div>  
+            
+            
+            
+			<div id="增值业务下拉">
+				<div class="下拉"> 
+                     <ul class="增值业务下拉列表">   
+                         <li><a href="../RegisteredPage/物流网站-注册页.html">&nbsp;&nbsp;&nbsp;成为会员</a></li>
+                         <li><a href="#">&nbsp;&nbsp;&nbsp;会员特权</a></li>
+                         <li><a href="#">&nbsp;&nbsp;&nbsp;个人中心</a></li>
+                         <li><a href="#">&nbsp;&nbsp;&nbsp;账号管理</a></li>
+                         <li><a href="#">&nbsp;&nbsp;&nbsp;公司动态</a></li>
+                     </ul>
+				</div>
+			</div>  
+            
+            
+            
+			<div id="客服服务下拉">
+				<div class="下拉"> 
+			  			<div class="客服服务下拉控制">
+				             <ul class="客服服务下拉列表">   
+				                 <li><a href="../CustomerServices_countPage/物流网站-客户服务_账号申述.html">&nbsp;&nbsp;&nbsp;账户申述</a></li>
+                                 <li><a href="../CustomerServices_HelpCenterPage/物流网站-客户服务_帮助中心.html">&nbsp;&nbsp;&nbsp;帮助中心</a></li> 
+                                 <li><a href="../CustomerServices_OnlinePage/物流网站-客户服务_在线客服.html">&nbsp;&nbsp;&nbsp;在线客服</a></li>
+				    			 <li><a href="../CustomerServices_optionsbackPage/CustomerServices_optionsback.html">&nbsp;&nbsp;&nbsp;意见反馈</a></li>
+				             </ul>
+				  		</div>
+				</div>
+			</div>
+            
+            
+            
+            
+            <div id="首页图片">
+		    <a href="#"><img id="imgm" src="Image/首页1.png" width="1200" height="400"/></a>
+		    <script language="javascript">
+			setInterval('mImg()', 3000)
+			</script>
+	    </div>
+		</div>	
+     </div>
+     
+     
+    <div id="header_MaimMenu">
+     	<div id="title">
+        	<span id="menutext"><a href="../LogisticsqueryPage/Logisticsquery.html" class="menutext">首页</a>&nbsp;&nbsp;&nbsp;<a href="../Logistics inquirePage/Logistics inquire.html" class="menutext">运单追踪</a>&nbsp;&nbsp;&nbsp;<a href="../supply_of_goods_infoPage/货源信息.html" class="menutext">货源信息</a>&nbsp;&nbsp;&nbsp;<a href="../carsoptionsinfoPage/车源信息.html" class="menutext">车源信息</a>&nbsp;&nbsp;&nbsp;<a href="../Bjnfxky LogisticsPage/Bjnfxky Logistics.html" class="menutext">物流专线</a>&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">整车货运</a>&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">国际物流</a>&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">搬家公司</a>&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">物流招标</a>&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">物流设备</a>&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">人才市场</a>&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">最新资讯</a>&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">合作论坛</a>&nbsp;&nbsp;&nbsp;
+        </div>
+     	
+     </div>
+  <div id="citys">
+     	<div id="QuanGuo">
+        	<img src="Image/全国.png">
+     </div>
+    <div id="QuanGuolist">
+    		<table>
+ <tbody>
+    <tr width="750" height="25">
+      <td><a href="#">北京</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">广东</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">浙江</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">江苏</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">山东</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">河南</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">四川</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">福建</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">安徽</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">河北</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">辽宁</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">黑龙江</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">江西</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">贵州</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">新疆</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">吉林</a>&nbsp;&nbsp;&nbsp;</td>
+      <td><a href="#">西藏</a>&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr width="750" height="25">
+      <td><a href="#">上海</a></td>
+      <td><a href="#">天津</a></td>
+      <td><a href="#">重庆</a></td>
+      <td><a href="#">山西</a></td>
+      <td><a href="#">陕西</a></td>
+      <td><a href="#">湖北</a></td>
+      <td><a href="#">云南</a></td>
+      <td><a href="#">广西</a></td>
+      <td><a href="#">湖南</a></td>
+      <td><a href="#">青海</a></td>
+      <td><a href="#">甘肃</a></td>
+      <td><a href="#">内蒙古</a></td>
+      <td><a href="#">宁夏</a></td>
+      <td><a href="#">香港</a></td>
+      <td><a href="#">台湾</a></td>
+      <td><a href="#">澳门</a></td>
+      <td><a href="#">海南</a></td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+    <div id="DiShi">
+        <img src="Image/地市.png">
+    </div>
+    <div id="DiShiList">
+      <img src="Image/DiShiList.png" >
+     </div>
+</div>
+<div id="header_Userinfo">
+
+ <div id="longin">
+   <form id="RegisteredForm">用户名:&nbsp;<input type="text" size="12" name="UserName">&nbsp;&nbsp;密码:&nbsp;<input type="text" size="12" name="UserPwd"></form>
+ </div>
+ <div id="button">
+     <input type="image" src="Image/登陆按钮.png" onclick="Register()";return false;> <a href="../RegisteredPage/物流网站-注册页.html"> <img src="Image/注册按钮.png"></a> <input type="image" src="Image/忘记密码按钮.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../ReleaseinfosourcePage/Releaseinfosource.html"><img src="Image/发布车源信息.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../ReleaseinfosourcePage/Releaseinfosource.html"><img src="Image/发布货源信息.png"></a>
+ </div>
+ 
+ </div>
+ 
+
+
+
+<div id="header_currentPosition">
+     <div id="position">
+         您所在的位置：<a href="../LogisticsqueryPage/Logisticsquery.html">物流查询</a> > 首页
+     </div>
+     <div id="fenxiang">
+        <img src="Image/分享到.png">
+     </div>
+     
+</div>
+
+
+
+
+<div id="container##">
+
+</div>
+
+<div id="center">
+	<div id="center_left">
+    	<ul>
+          <li><br /></li>
+          <li><img src="Image/物流1.png"></li>
+          <li><br /></li>
+          <li><img src="Image/物流2.png"></li>
+          <li><br /></li>
+          <li><img src="Image/物流3.png"></li>
+          <li><br /></li>
+          <li><img src="Image/物流4.png"></li>
+          <li><br /></li>
+          <li><img src="Image/物流9.png"></li>
+        </ul>
+    </div>
+    
+    <div id="center_middle">
+      <div id="center_middle_Up">
+      <a href="#"><img id="img2" src="Image/轮播1.png"/></a>
+		    <script language="javascript">
+			setInterval('Img()', 2100)
+			</script>
+      </div>
+      <img src="Image/物流专线.png" width="550" height="195">
+      <br />
+      <br />
+      <img src="Image/物流资讯.png" width="550" height="195">
+      <br />
+      <br />
+      <img src="Image/整车配送.png" width="550" height="195">
+      <br />
+      <br />
+      <img src="Image/车源信息.png" width="550" height="195">
+     </div>
+    
+    <div id="cnenter_right">
+          	<ul>
+              <li><br /></li>
+              <li><img src="Image/物流5.png"></li>
+              <li><br /></li>
+              <li><img src="Image/物流6.png"></li>
+              <li><br /></li>
+              <li><img src="Image/物流7.png"></li>
+              <li><br /></li>
+              <li><img src="Image/物流8.png"></li>
+              <li><br /></li>
+              <li><img src="Image/物流10.png"></li>
+        </ul>
+    </div>
+</div>
+
+
+<div id="footer">
+<img src="Image/尾部.png">
+</div>
+
+</body>
+
+</html>

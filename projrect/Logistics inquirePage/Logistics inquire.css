@@ -1,0 +1,357 @@
+body
+{
+	margin:0 auto;
+	padding:0px;
+	width:1200px;
+	height:1580px;
+	position:static;
+}
+#header
+{
+	margin:0 auto;
+	padding:0px;
+	width:1200px;
+	height:640px;
+	position:static;
+}
+#header_top
+{
+	margin:0 auto;
+	padding:7px 0px;
+	width:1200px;
+	height:20px;
+	position:static;
+	font-size:12px;
+	background-color:#E3E1E1;
+
+}
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	color:#F56A17;
+}
+#header_minddle
+{
+	margin:5px 0px 0px 0px;
+	padding:0px;
+	width:1200px;
+	height:110px;
+	position:static;
+}
+#Mianicon
+{
+	margin-top:20px;
+	margin-left:50px;
+	padding-left:20px;
+	width:216px;
+	height:60px;
+	position:static;
+	float:left;
+}
+#advertisement
+{
+	margin-right:40px;
+	width:770px;
+	height:101px;
+	position:static;
+	float:right;
+}
+a:hover
+{
+	color:#F56A17;
+}
+
+#FirstMenu
+{
+	margin-top:20px;
+	width:1200px;
+	height:480px;
+	position:static;
+}
+#导航栏
+{
+	margin:0px;
+	padding: 0px;
+	background-image: url('./Image/导航栏.png');
+	background-repeat: no-repeat;
+	height: 52px;
+	width: 1200px;
+}
+#导航栏 ul
+{
+	height: 20px;
+	width: 800px;
+	margin-left: 160px;
+
+}
+#导航栏 li{
+float:left;
+padding-right:10px;
+
+}
+#导航栏 a
+{
+	padding-top:17px;
+	display:block;
+	color:#FFF;
+	height:35px;
+	width:120px;
+	text-align:center;
+}
+#导航栏 a:hover
+{
+	background-image: url(Image/%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%8C%89%E4%B8%8B.png);
+	background-repeat: no-repeat;
+	
+}
+#导航栏 .物流查询{
+
+background-image: url(Image/%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%8C%89%E4%B8%8B.png);
+	background-repeat: no-repeat;
+
+}
+
+ #物流查询下拉
+ {
+ 	position: absolute;
+ 	margin: 0px;
+ 	margin-left: 331px;
+    width:110px;
+    padding:0px;
+	z-index: 3;
+ }
+ #增值业务下拉
+ {
+ 	position: absolute;
+ 	margin: 0px;
+ 	margin-left: 591px;
+    width:110px;
+    padding:0px;
+	z-index: 3;
+ }
+ #客服服务下拉
+ {
+ 	position: absolute;
+ 	margin: 0px;
+ 	margin-left: 851px;
+    width:110px;
+    padding:0px;
+	z-index: 3;
+ }
+ 
+           
+ .下拉 ul{
+    display:none;
+    background:#fff;
+    border:1px solid #000;
+    width:110px;
+    padding:5px;
+    margin:0px;
+}    
+ .下拉 ul li{
+    padding:5px 0;
+    border-bottom:1px dotted #000;
+}
+
+.下拉 a:hover
+{
+	color: red;
+}
+.black
+{
+color:#FF3300;
+}
+
+#首页图片
+{
+	margin: 10px 0 10px;
+	padding:0px;
+	width: 1200px;
+	height:400px;
+}
+
+
+
+
+
+
+#header_MaimMenu
+{
+	margin-top:20px;
+	width:1200px;
+	height:42px;
+	position:static;
+    background-color:#9C9898;
+	border-radius:10px;
+}
+
+
+.menutext
+{
+	color:#F4F4F4;
+}
+#title
+{
+	margin:0 auto;
+	margin-top:9px;
+	padding-top:12px;
+	width:1151px;
+	height:20px;
+	position:static;
+	font-size:15px;
+	color:#FCFCFC;
+	font-weight:900;
+}
+#citys
+{
+	margin-top:10px;
+	width:1200px;
+	height:60px;
+	position:static;
+	border-radius:5px;
+
+}
+#QuanGuo
+{
+	margin:0xp;
+	width:60px;
+	height:60px;
+	position:static;
+	float:left;
+}
+#QuanGuolist
+{
+	margin-left:1px;
+	width:800px;
+	height:60px;
+	position:static;
+	float:left;
+	font-size:10px;
+}
+#DiShi
+{
+	margin:0xp;
+	width:60px;
+	height:60px;
+	float:left;
+}
+#DiShiList
+{
+	float:left;
+	width:240px;
+	height:57px;
+}
+
+#header_currentPosition
+{
+	margin-top:10px;
+	padding-left:10px;
+	width:1190px;
+	height:30px;
+	background-color:#EFECEC;
+}
+
+#position
+{
+	margin-top:6px;
+	width:800px;
+	height:18px;
+	font-size:12px;
+	float:left;
+}
+#fenxiang
+{
+	width:220px;
+	height:30px;
+	float:right;
+}
+
+#container
+{
+	margin:0xp;
+	padding:0px;
+	width:250px;
+	height:250px;
+	position:static;
+}
+
+#center
+{
+	margin:0 auto;
+	margin-top:10px;
+	padding:0;
+	height:300px;
+	width:1200px;
+	border:2px solid #CCCCCC;
+	
+}
+#center_-1
+{
+	margin-top:20px;
+	margin-left:350px;
+	padding:0;
+	height:50px;
+	width:460px;
+	position:static;
+
+}
+#center_0
+{
+	margin-top:60px;
+	margin-left:250px;
+	padding:0;
+	height:100px;
+	width:850px;
+	position:static;
+}
+#center_1
+{
+	margin-top:-101px;
+	margin-left:753px;
+	padding:0;
+	height:62px;
+	width:200px;
+	position:static;
+}
+#center_2
+{
+	margin-top:5px;
+	margin-left:250px;
+	padding:0;
+	height:30px;
+	width:400px;
+	position:static;
+}
+ul
+{
+	list-style-type:none;
+}
+
+#footer
+{
+	margin-top:190px;
+	padding:0;
+	height:250px;
+	width:1200px;
+	position:static;
+}
+
+.title
+{
+color:#FF3300;
+float:left;
+margin-top:9px;
+}
+.color
+{
+color:#CC9999;
+font-size:24px;
+}
+.lr
+{
+color:#666666;
+font-size:16px;
+}
